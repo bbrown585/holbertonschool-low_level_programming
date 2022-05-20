@@ -2,7 +2,9 @@
 int main(void)
 {
 /**
- * main- Entry point
+ *main -main
+ *
+ * sizeof - 
  *
  * Return: Always 0 (Success)
  */
