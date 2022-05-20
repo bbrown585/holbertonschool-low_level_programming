@@ -1,1 +1,2 @@
-gcc main.c ./c.out
+#!/bin/bash
+gcc -E main.c ./c.out
