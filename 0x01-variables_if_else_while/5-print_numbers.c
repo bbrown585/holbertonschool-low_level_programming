@@ -1,8 +1,9 @@
 #include<stdio.h>
 /**
- *
- * Return: Always 0 (Success)
- */
+* main - 1 to 9
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 char ch = '1';
