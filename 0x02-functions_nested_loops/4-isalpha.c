@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * _isalpha - check the code.
+ *@c: idk
  *
  * Return: Always 0.
  */
