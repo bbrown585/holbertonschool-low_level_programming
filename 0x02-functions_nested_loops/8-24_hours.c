@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *
  *jack_bauer - idk
  *
+ */
 void jack_bauer(void)
 {
 	int h;
