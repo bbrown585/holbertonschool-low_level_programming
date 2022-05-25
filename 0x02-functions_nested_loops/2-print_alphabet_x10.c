@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphatbet - none
+ * print_alphabet_x10 - none
  *
  * Return: none
  */
