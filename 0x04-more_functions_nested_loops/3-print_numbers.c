@@ -12,4 +12,5 @@ void print_numbers(void)
 
 	for (ch = '0'; ch <= '9'; ch++)
 		putchar(ch);
+		putchar('\n');
 }
