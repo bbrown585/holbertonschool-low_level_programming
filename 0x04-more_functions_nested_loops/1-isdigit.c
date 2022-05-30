@@ -3,7 +3,7 @@
 #include <ctype.h>
 
 /**
- * isdigit - idk
+ * _isdigit - idk
  * @c: idk
  *
  * Return: 0 1
