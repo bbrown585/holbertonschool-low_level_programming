@@ -10,10 +10,16 @@ void print_line(int n)
 {
 	int i;
 
-	if (n > 0)
+	if (n <= 0)
+	{
+		putchar('\n');
+	}
+	else
 	{
 		for (i = 0; i < 10; i++)
-		putchar('_');
+		{
+		putchar(95);
 	}
 		putchar('\n');
+	}
 }
