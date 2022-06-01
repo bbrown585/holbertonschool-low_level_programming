@@ -12,6 +12,10 @@ void print_square(int size)
 
 	if (size > 0)
 	{
+		putchar('\n');
+	}
+	else
+	{
 		for (line = 0; line < size; line++)
 		{
 			for (row = 0; row < size; size++)
@@ -19,11 +23,9 @@ void print_square(int size)
 				putchar('#');
 			}
 			putchar('\n');
-		}
-	}
-	else
-	{
+
+
 			putchar('\n');
 		}
-	
+	}
 }
