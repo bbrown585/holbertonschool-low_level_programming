@@ -2,15 +2,21 @@
 
 /**
  * print_rev - reverse
- * @s: string
- *
+ * @i: string
+ * @j: idk
  * Return: 0.
  */
 void print_rev(char *s)
 {
-	if (*s != '\0')
+	int i;
+	int j;
+
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		print_reverse(s + 1);
-		putchar("d", *s);
 	}
+	for (j = i - 1; j >= 0; j--)
+	{
+		_putchar(s[j]);
+	}
+	_putchar('\n');
 }
