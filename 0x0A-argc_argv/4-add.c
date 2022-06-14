@@ -14,9 +14,9 @@ int main(int argc, char *argv[])
 	int j;
 	int sum;
 
-	for (i = 1; i < argc; i++)
+	for (j = 1; j < argc; j++)
 	{
-		for (j = 0; argv[i][j]; i++)
+		for (i = 0; argv[j][i]; i++)
 		{
 			if (argv[j][i] < '0' || argv[j][i] > '9')
 			{
