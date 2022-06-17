@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - macro 
+ * main - macro
  *
  * Return: 0.
  */
