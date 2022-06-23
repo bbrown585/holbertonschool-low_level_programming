@@ -3,10 +3,11 @@
 #include <stdio.h>
 
 /**
- *
- *
- *
- *
+ * array_iterator - execute a function given as a pararmeter
+ * @array: arrary
+ * @size: the size
+ * @action: pointer
+ * Return: none
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
@@ -16,6 +17,6 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 	return;
 
 for (; i < size ; i++)
-action(arrary[i];
+action(array[i]);
 
-}	
+}
