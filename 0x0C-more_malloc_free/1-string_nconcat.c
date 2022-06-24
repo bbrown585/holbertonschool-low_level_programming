@@ -10,7 +10,7 @@
  * Return: pointer
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
-i{
+{
 	char *ptr;
 	unsigned int i, len1, len2, *more;
 
