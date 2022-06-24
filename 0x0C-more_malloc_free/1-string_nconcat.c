@@ -10,7 +10,7 @@
  * Return: pointer
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
-{
+i{
 	char *ptr;
 	unsigned int i, len1, len2, *more;
 
@@ -19,9 +19,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	more = malloc(5);
 
 	if (s1 == NULL)
-		s1 = " ";
+		s1 = "";
 	if (s2 == NULL)
-		s2 = " ";
+		s2 = "";
 	while (s1[len2])
 		len1++;
 	while (s2[len2])
