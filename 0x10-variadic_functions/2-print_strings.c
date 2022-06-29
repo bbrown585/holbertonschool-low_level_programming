@@ -19,7 +19,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		pnt = va_arg(param, char *);
-		if (pnt != NULL)
+		if (pnt == NULL)
 		{
 			printf("%s", pnt);
 		}
