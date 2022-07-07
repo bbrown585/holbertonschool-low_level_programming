@@ -11,7 +11,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
 	char *pnt;
-	
+
 	va_list param;
 
 	va_start(param, n);
@@ -24,15 +24,15 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 		if (!separator)
 		printf("%s", pnt);
-		
-		else if(separator && i == 0)
+
+		else if (separator && i == 0)
 		printf("%s", pnt);
 
 		else
 			printf("%s%s", separator, pnt);
-	
+
 	}
 	putchar(10);
-		
-	va_end(param);	
+
+	va_end(param);
 }
