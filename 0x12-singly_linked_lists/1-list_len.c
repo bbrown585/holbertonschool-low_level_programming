@@ -1,22 +1,20 @@
 #include <stdlib.h>
 #include "lists.h"
-#include <string.h>
+
 
 /**
  * list_len - number of elements in a link
- *
+ * @h: head of list
  * Return: 0.
  */
 size_t list_len(const list_t *h)
 {
-	size_t node = 0;
-	const list_t *temp;
+	int node = 0;
 
-	temp = h;
-
-	while (temp)
+	while (h)
 	{
-		temp = temp->next;
+		node += 1;
+		h = h->next;
 	}
 	return (node);
 }
