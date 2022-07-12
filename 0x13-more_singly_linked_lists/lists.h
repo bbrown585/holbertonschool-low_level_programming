@@ -5,10 +5,12 @@
 #include <string.h>
 #include <stdio.h>
 /**
- * struct listint_t - more singly linked list
- * @str: string - (malloc'ed string)
- * @len: length of the string
- * @next: points to next node
+ * struct listint_t - singly linked list
+ * @n: integer
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ *
  */
 typedef struct listint_t
 {
