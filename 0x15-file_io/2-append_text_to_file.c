@@ -24,7 +24,7 @@ int append_text_to_file(const char *filename, char *text_content)
 	len++;
 
 	right = write(file, text_content, len);
-	if (right == -1)
+	if (right != len)
 	{
 	close(file);
 	return (-1);
