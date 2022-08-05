@@ -22,10 +22,10 @@ void hash_table_delete(hash_table_t *ht)
 		{
 			new = location;
 			location = location->next;
-			new(location->key);
-			new(location->value);
-			new(location);
-		}
+			free(new->key);
+			free(new->value);
+			free(new);
+	}
 	}
 	free(ht->array);
 	free(ht);
