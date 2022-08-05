@@ -21,16 +21,16 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 
 	index = key_index((unsigned char *)key, ht->size);
 	hash = ht->array[index];
-	
+
 	hash = ht->array[index];
 	while (hash != NULL)
 	{
 		if (strcmp(hash->key, key) == 0)
-		{	
+		{
 			return (hash->value);
 		}
 	hash = hash->next;
 	}
-	
-	return (NULL);
+
+return (NULL);
 }
